@@ -15,6 +15,10 @@
 		1CAFFEB9254FF1430010DC34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CAFFEB7254FF1430010DC34 /* LaunchScreen.storyboard */; };
 		1CAFFEC4254FF1430010DC34 /* DiceRollerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAFFEC3254FF1430010DC34 /* DiceRollerTests.swift */; };
 		1CAFFECF254FF1430010DC34 /* DiceRollerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAFFECE254FF1430010DC34 /* DiceRollerUITests.swift */; };
+		1CAFFEE32550B0280010DC34 /* failwah.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1CAFFEDF2550B0280010DC34 /* failwah.mp3 */; };
+		1CAFFEE42550B0280010DC34 /* rolldice.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1CAFFEE02550B0280010DC34 /* rolldice.mp3 */; };
+		1CAFFEE52550B0280010DC34 /* torpedo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1CAFFEE12550B0280010DC34 /* torpedo.mp3 */; };
+		1CAFFEE62550B0280010DC34 /* zfanfare.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1CAFFEE22550B0280010DC34 /* zfanfare.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		1CAFFECA254FF1430010DC34 /* DiceRollerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiceRollerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CAFFECE254FF1430010DC34 /* DiceRollerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceRollerUITests.swift; sourceTree = "<group>"; };
 		1CAFFED0254FF1430010DC34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CAFFEDF2550B0280010DC34 /* failwah.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = failwah.mp3; sourceTree = "<group>"; };
+		1CAFFEE02550B0280010DC34 /* rolldice.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = rolldice.mp3; sourceTree = "<group>"; };
+		1CAFFEE12550B0280010DC34 /* torpedo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = torpedo.mp3; sourceTree = "<group>"; };
+		1CAFFEE22550B0280010DC34 /* zfanfare.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = zfanfare.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +107,10 @@
 		1CAFFEAB254FF1400010DC34 /* DiceRoller */ = {
 			isa = PBXGroup;
 			children = (
+				1CAFFEDF2550B0280010DC34 /* failwah.mp3 */,
+				1CAFFEE02550B0280010DC34 /* rolldice.mp3 */,
+				1CAFFEE12550B0280010DC34 /* torpedo.mp3 */,
+				1CAFFEE22550B0280010DC34 /* zfanfare.mp3 */,
 				1CAFFEAC254FF1400010DC34 /* AppDelegate.swift */,
 				1CAFFEAE254FF1400010DC34 /* SceneDelegate.swift */,
 				1CAFFEB0254FF1400010DC34 /* ViewController.swift */,
@@ -232,7 +244,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				1CAFFEB9254FF1430010DC34 /* LaunchScreen.storyboard in Resources */,
+				1CAFFEE42550B0280010DC34 /* rolldice.mp3 in Resources */,
+				1CAFFEE62550B0280010DC34 /* zfanfare.mp3 in Resources */,
+				1CAFFEE32550B0280010DC34 /* failwah.mp3 in Resources */,
 				1CAFFEB6254FF1430010DC34 /* Assets.xcassets in Resources */,
+				1CAFFEE52550B0280010DC34 /* torpedo.mp3 in Resources */,
 				1CAFFEB4254FF1400010DC34 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

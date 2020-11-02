@@ -15,8 +15,8 @@ class ViewController: UIViewController {
     
     
     var rollAudioPlayer: AVAudioPlayer!
-    var winAudioPlayer: AVAudioPlayer!
-    var lossAudioPlayer: AVAudioPlayer!
+    var winAudioPlayer: AVAudioPlayer?
+    var lossAudioPlayer: AVAudioPlayer?
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -66,11 +66,11 @@ class ViewController: UIViewController {
         
         if (imageName == "d1"){
             CriticalLabel.text = "Oof that's an L"
-            lossAudioPlayer!.play()
+            lossAudioPlayer?.play()
         }
         else if (imageName == "d20"){
             CriticalLabel.text = "Alexa, play 'Turn my Swag On'"
-            winAudioPlayer!.play()
+            winAudioPlayer?.play()
         }
         else {
             rollAudioPlayer?.play()
